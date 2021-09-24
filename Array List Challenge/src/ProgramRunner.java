@@ -14,19 +14,20 @@ public class ProgramRunner
 		TVShows.add(new Program("Grey's Anatomy", "drama", 18));
 		TVShows.add(new Program("Outer Banks", "Mystery", 2));
 		
+		//this will print the entire arrayList?
 		printList();
-		System.out.println("This is a test to see if I can put it back into GitHub");
+		//add a year to numberofseasonsaired
+		printList();
+		//delete show with longest title
+		printList();
+		//change title of the first show to something else
+		printList();
+		
 		}
 		
 		public static void printList()
 		{
-			for(int i = 0; i < TVShows.size(); i ++)
-				{
-					if(TVShows.get(i) > longestWord)
-						{
-							
-						}
-				}
+			System.out.println(TVShows.get(0).getTitle());		
 		}
 		
 	}
